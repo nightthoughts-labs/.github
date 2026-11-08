@@ -15,6 +15,7 @@ Dyolis is a clinical AI platform designed to keep clinicians in control. It comb
 - **Clinicians in command.** Every result is a draft until a clinician reviews and signs it. When the two AI readings disagree, the disagreement is shown to the clinician.
 - **Safeguards by design.** An intake check declines cases outside the supported scope; a second model from a different family reviews the first model's draft.
 - **Designed for data sovereignty.** Designed to be installed on the hospital's own servers. In this configuration, patient data is processed on site and is not sent to external AI services.
+- **Explainable by design.** Every finding comes with its evidence: the image region it refers to, its confidence level, and the second reading's verdict.
 - **Traceable.** Every step is logged: which case, which model and version, which reviewer, which decision.
 
 First use: chest X-ray reporting. Planned modules cover other examinations (ECG, mammography, ultrasound, MRI, dermatology) and full case records.
